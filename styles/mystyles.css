@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(244, 215, 215);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col-lg-4{
+    background-color: rgb(238, 194, 194);
+    align-content: center;
+
+}
+.display-5{
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.container.px-5.my-5{
+    padding: 55px;
+}
+
+.my-5{
+    margin-bottom: 0px !important;
+}
+
+.mb-5 {
+    margin-bottom: 0rem !important;
+}
+
+.resumepicture{
+    display: block;
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fw-bolder.mb-0{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.col-lg-8{
+    padding-top: 25px;
+}
+.row.gx-5.row-cols-1.row-cols-md-2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.col.mb-5.h-100{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.col.mb-5.mb-md-0.h-100{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 30px;
+}
+.col.h-100{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 30px;
+}
+
+.text-muted {
+    color:rgb(33, 37, 41) !important;
+}
+
+a:link {
+    color: #6c757d;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(33, 37, 41);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(238, 194, 194);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(33, 37, 41);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.anchor{
+    float: right;
+    color:rgb(33, 37, 41)
+}
+
+.byulink{
+    color:#6c757d !important;
+    text-decoration: underline !important;
+}

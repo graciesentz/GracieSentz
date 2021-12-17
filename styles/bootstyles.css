@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(244, 215, 215);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(33, 37, 41);
+}
+
+li {
+    float: right;
+    border-right:1px rgb(33, 37, 41);
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+
+.active {
+    background-color: rgb(244, 215, 215);
+}
+
+.tableauPlaceholder{
+    width: 50%;
+    padding-top: 1rem;
+}
+
+.tableaulink{
+    color: #6c757d;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.tableaulink:visited {
+    color: rgb(33, 37, 41);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.tableaulink:hover {
+    color: rgb(238, 194, 194);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.tableaulink:active {
+    color: rgb(33, 37, 41);
+    background-color: transparent;
+    text-decoration: underline;
+}
